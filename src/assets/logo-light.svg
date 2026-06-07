@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" fill="none">
+  <!-- T mark icon -->
+  <rect x="4" y="6" width="28" height="4" rx="2" fill="#1e6bff"/>
+  <rect x="15" y="10" width="6" height="22" rx="2" fill="#1e6bff"/>
+  <!-- Accent dot -->
+  <circle cx="36" cy="8" r="3" fill="#1e6bff"/>
+  <!-- Wordmark -->
+  <text x="46" y="27" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" letter-spacing="-0.03em" fill="#060e1e">Talastron</text>
+</svg>

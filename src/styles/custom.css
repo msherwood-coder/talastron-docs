@@ -1,0 +1,176 @@
+/* ============================================================
+   Talastron — Custom Starlight Theme
+   Brand: dark navy base, electric blue accent, cyan highlights
+   ============================================================ */
+
+:root {
+  /* Brand colours */
+  --sl-color-accent-low:    #0a1628;
+  --sl-color-accent:        #1e6bff;
+  --sl-color-accent-high:   #60a5fa;
+
+  /* Background scale */
+  --sl-color-bg:            #060e1e;
+  --sl-color-bg-nav:        #080f1f;
+  --sl-color-bg-sidebar:    #07101d;
+  --sl-color-bg-inline-code:#0d1e3a;
+  --sl-color-hairline-light:#1a2d50;
+  --sl-color-hairline:      #1a2d50;
+
+  /* Text */
+  --sl-color-white:         #f0f6ff;
+  --sl-color-gray-1:        #c9d8f0;
+  --sl-color-gray-2:        #8fa8cc;
+  --sl-color-gray-3:        #4d6a96;
+  --sl-color-gray-4:        #253552;
+  --sl-color-gray-5:        #13223d;
+  --sl-color-gray-6:        #0a1628;
+
+  /* Fonts */
+  --sl-font:                'Inter', system-ui, sans-serif;
+  --sl-font-mono:           'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ── Site Header ─────────────────────────────────────────── */
+header.header {
+  border-bottom: 1px solid var(--sl-color-hairline);
+  background: var(--sl-color-bg-nav);
+  backdrop-filter: blur(8px);
+}
+
+/* ── Site Title / Logo ───────────────────────────────────── */
+.site-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+  color: var(--sl-color-white);
+}
+
+/* ── Hero Section ────────────────────────────────────────── */
+.hero {
+  padding-block: 4rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #ffffff 0%, #60a5fa 50%, #1e6bff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero .tagline {
+  color: var(--sl-color-gray-2);
+  font-size: 1.1rem;
+  max-width: 52ch;
+}
+
+/* ── Buttons ─────────────────────────────────────────────── */
+.sl-link-button.primary {
+  background: var(--sl-color-accent);
+  border-color: var(--sl-color-accent);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.sl-link-button.primary:hover {
+  background: #3b82f6;
+  transform: translateY(-1px);
+}
+
+.sl-link-button.secondary {
+  border-color: var(--sl-color-accent);
+  color: var(--sl-color-accent-high);
+  border-radius: 8px;
+}
+
+.sl-link-button.secondary:hover {
+  background: rgba(30, 107, 255, 0.1);
+}
+
+/* ── Card Grid ───────────────────────────────────────────── */
+.card {
+  background: var(--sl-color-bg-sidebar);
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 12px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  border-color: var(--sl-color-accent);
+  box-shadow: 0 0 0 1px var(--sl-color-accent), 0 4px 24px rgba(30, 107, 255, 0.15);
+}
+
+.card .title {
+  color: var(--sl-color-white);
+  font-weight: 600;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────── */
+nav.sidebar {
+  background: var(--sl-color-bg-sidebar);
+  border-right: 1px solid var(--sl-color-hairline);
+}
+
+.sidebar-content a[aria-current='page'] {
+  background: rgba(30, 107, 255, 0.15);
+  color: var(--sl-color-accent-high);
+  border-inline-start-color: var(--sl-color-accent);
+}
+
+/* ── Code Blocks ─────────────────────────────────────────── */
+pre {
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 8px;
+}
+
+code {
+  background: var(--sl-color-bg-inline-code);
+  border-radius: 4px;
+  font-family: var(--sl-font-mono);
+}
+
+/* ── Badges ──────────────────────────────────────────────── */
+.badge {
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ── Tables ──────────────────────────────────────────────── */
+table {
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead tr {
+  background: var(--sl-color-bg-sidebar);
+}
+
+th {
+  color: var(--sl-color-accent-high);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ── Callout / Aside ─────────────────────────────────────── */
+.starlight-aside {
+  border-radius: 8px;
+  border-inline-start-width: 3px;
+}
+
+/* ── Page Footer ─────────────────────────────────────────── */
+footer {
+  border-top: 1px solid var(--sl-color-hairline);
+  color: var(--sl-color-gray-3);
+  font-size: 0.85rem;
+}
