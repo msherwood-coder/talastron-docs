@@ -1,6 +1,6 @@
----
+﻿---
 title: Talastron — Kinetic AI
-description: Azure-native Agentic Software Factory. Transform platform engineering with AI agents that design, govern, and deploy production-grade Azure infrastructure.
+description: Azure-native Agentic Software Factory.
 template: splash
 hero:
   tagline: Azure-native Agentic Software Factory
@@ -11,11 +11,11 @@ hero:
     file: ../../assets/hero-diagram.svg
   actions:
     - text: Get Started
-      link: /getting-started/overview/
+      link: /talastron-docs/getting-started/overview/
       icon: right-arrow
       variant: primary
     - text: View on GitHub
-      link: https://github.com/msherwood-coder/Development
+      link: https://github.com/msherwood-coder/talastron-docs
       icon: github
       variant: secondary
 ---
@@ -47,59 +47,27 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
   </Card>
 </CardGrid>
 
-## The workflow
+## Documentation
 
 <CardGrid>
   <LinkCard
-    title="Step 1 — Requirements"
-    href="/concepts/workflow/step-1/"
-    description="Capture structured project requirements and pin the SKU manifest."
+    title="Overview"
+    href="/talastron-docs/getting-started/overview/"
+    description="What Talastron is and how it fits into your Azure delivery practice."
   />
   <LinkCard
-    title="Step 2 — Architecture"
-    href="/concepts/workflow/step-2/"
-    description="WAF assessment, cost estimation, and adversarial challenger review."
+    title="Quickstart"
+    href="/talastron-docs/getting-started/quickstart/"
+    description="Get running in 15 minutes."
   />
   <LinkCard
-    title="Step 3.5 — Governance"
-    href="/concepts/workflow/step-3-5/"
-    description="Live Azure Policy discovery and architecture reconciliation."
+    title="How It Works"
+    href="/talastron-docs/concepts/how-it-works/"
+    description="Agents, skills, instructions, and the workflow engine."
   />
   <LinkCard
-    title="Step 4 — IaC Plan"
-    href="/concepts/workflow/step-4/"
-    description="Machine-readable implementation plan with frozen inputs for code generation."
-  />
-  <LinkCard
-    title="Step 5 — IaC Code"
-    href="/concepts/workflow/step-5/"
-    description="AVM-first Bicep or Terraform generated and validated against the plan."
-  />
-  <LinkCard
-    title="Step 7 — As-Built"
-    href="/concepts/workflow/step-7/"
-    description="Full documentation suite: runbook, compliance matrix, cost report, inventory."
+    title="APEX Reference"
+    href="/talastron-docs/reference/apex-concepts/"
+    description="Full conceptual reference for the APEX pattern."
   />
 </CardGrid>
-
-## Products
-
-<CardGrid>
-  <Card title="Talastron Kinetic AI" icon="star">
-    Enterprise and defence-grade Azure agentic software factory.
-    [Learn more →](/products/talastron/)
-  </Card>
-  <Card title="Orion Data Analytics" icon="information">
-    Commercial Microsoft Cloud and AI delivery. Azure Architect-led delivery.
-    [Learn more →](/products/orion/)
-  </Card>
-  <Card title="Polygon Systems" icon="setting">
-    UK defence and sovereign AI. Secure, compliant, Azure-native.
-    [Learn more →](/products/polygon/)
-  </Card>
-</CardGrid>
-
----
-
-*Powered by GitHub Copilot agents, Azure Verified Modules, and the Microsoft Well-Architected Framework.*
-*Built on the [APEX pattern](https://jonathan-vella.github.io/azure-agentic-infraops/) by Jonathan Vella.*
