@@ -1,4 +1,4 @@
-﻿import { defineConfig } from 'astro/config';
+import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
@@ -40,6 +40,12 @@ export default defineConfig({
           label: 'Reference',
           items: [
             { label: 'APEX Concepts', slug: 'reference/apex-concepts' },
+          ],
+        },
+        {
+          label: 'Demo',
+          items: [
+            { label: 'Live Demo Guide', slug: 'demo' },
           ],
         },
       ],
