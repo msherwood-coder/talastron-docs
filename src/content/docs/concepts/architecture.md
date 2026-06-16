@@ -5,7 +5,7 @@ description: The 8-step workflow, Orchestrator pattern, dual IaC tracks, and mod
 
 ## The Multi-Step Workflow
 
-APEX orchestrates a strict sequential workflow with mandatory human approval gates.
+Kinetic AI orchestrates a strict sequential workflow with mandatory human approval gates.
 
 | Step | Phase | Agent | Output | Gate |
 |---|---|---|---|---|
