@@ -1,9 +1,9 @@
 ---
-title: APEX Concepts Reference
-description: Full conceptual documentation extracted from the APEX agentic infraops pattern by Jonathan Vella.
+title: Kinetic AI Concepts Reference
+description: Full conceptual documentation for the Talastron Kinetic AI agentic infraops pattern.
 ---
 
-This page contains the full conceptual reference for the APEX pattern that underpins
+This page contains the full conceptual reference for the Kinetic AI pattern that underpins
 Talastron Kinetic AI.
 
 :::note
@@ -42,7 +42,7 @@ The full extracted reference is also available in the repository at
 
 ## Intellectual foundations
 
-The APEX pattern synthesises two bodies of work:
+The Kinetic AI pattern synthesises two bodies of work:
 
 **Harness Engineering (OpenAI, Feb 2026)** — building a product with zero manually-written code.
 Key insights: repository as system of record, map not manual, enforce invariants not implementations,
