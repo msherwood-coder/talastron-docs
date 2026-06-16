@@ -45,7 +45,13 @@ export default defineConfig({
         {
           label: 'Demo',
           items: [
-            { label: 'Live Demo Guide', slug: 'demo' },
+            { label: 'Overview', slug: 'demo' },
+            { label: 'Pre-Demo Smoke Tests', slug: 'demo/smoke-tests' },
+            { label: 'Demonstration Script', slug: 'demo/script' },
+            { label: 'Troubleshooting', slug: 'demo/troubleshooting' },
+            { label: 'Post-Demo Housekeeping', slug: 'demo/housekeeping' },
+            { label: 'Appendix A — Quick Reference', slug: 'demo/appendix-a' },
+            { label: 'Appendix B — Chat Scripts', slug: 'demo/appendix-b' },
           ],
         },
       ],
