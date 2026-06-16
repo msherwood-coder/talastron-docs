@@ -3,7 +3,7 @@ title: Overview
 description: What Talastron Kinetic AI is and how it fits into your Azure delivery practice.
 ---
 
-Talastron Kinetic AI is an **Azure-native agentic software factory** built on the APEX pattern.
+Talastron Kinetic AI is an **Azure-native agentic software factory** built on the Kinetic AI pattern.
 It uses GitHub Copilot agents to transform natural-language requirements into reviewed,
 deploy-ready Azure infrastructure — with human approval gates at every critical decision point.
 
