@@ -39,7 +39,7 @@ export default defineConfig({
         {
           label: 'Reference',
           items: [
-            { label: 'APEX Concepts', slug: 'reference/apex-concepts' },
+            { label: 'Kinetic AI Concepts', slug: 'reference/apex-concepts' },
           ],
         },
         {
